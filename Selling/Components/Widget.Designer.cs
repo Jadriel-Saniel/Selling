@@ -53,6 +53,7 @@
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Panel1.Size = new Size(301, 165);
             guna2Panel1.TabIndex = 0;
+            guna2Panel1.Paint += guna2Panel1_Paint;
             // 
             // lblCanPic
             // 
@@ -109,8 +110,8 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2PictureBox lblCanPic;
-        private Label label2;
-        private Label label1;
+        public Guna.UI2.WinForms.Guna2PictureBox lblCanPic;
+        public Label label2;
+        public Label label1;
     }
 }
